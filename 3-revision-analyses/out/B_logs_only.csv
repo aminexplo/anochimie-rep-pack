@@ -1,0 +1,19 @@
+detector,form,arm,f_beta,precision,recall,true_positives,flagged
+Isolation Forest,conference,user data + logs,0.581,0.671,0.233,49,73
+Isolation Forest,conference,user data only,0.569,0.658,0.229,48,73
+Isolation Forest,conference,logs only,0.498,0.575,0.2,42,73
+Isolation Forest,employee,user data + logs,0.648,0.75,0.257,54,72
+Isolation Forest,employee,user data only,0.528,0.611,0.21,44,72
+Isolation Forest,employee,logs only,0.552,0.639,0.219,46,72
+DBSCAN,conference,user data + logs,0.584,0.687,0.219,46,67
+DBSCAN,conference,user data only,0.149,1.0,0.014,3,3
+DBSCAN,conference,logs only,0.149,1.0,0.014,3,3
+DBSCAN,employee,user data + logs,0.62,0.711,0.257,54,76
+DBSCAN,employee,user data only,0.0,0.0,0.0,0,0
+DBSCAN,employee,logs only,0.273,0.778,0.033,7,9
+SOM,conference,user data + logs,0.546,0.757,0.133,28,37
+SOM,conference,user data only,0.468,0.649,0.114,24,37
+SOM,conference,logs only,0.526,0.73,0.129,27,37
+SOM,employee,user data + logs,0.556,0.778,0.133,28,36
+SOM,employee,user data only,0.417,0.583,0.1,21,36
+SOM,employee,logs only,0.437,0.611,0.105,22,36

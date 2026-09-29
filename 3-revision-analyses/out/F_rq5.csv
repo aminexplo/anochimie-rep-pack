@@ -1,0 +1,4 @@
+criterion,n,k,chi2,df,p,kendall_w
+Completeness,12,8,23.012,7,0.0017,0.274
+Clarity,12,8,20.531,7,0.0045,0.244
+Difficulty,12,8,19.234,7,0.0075,0.229

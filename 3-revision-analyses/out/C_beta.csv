@@ -1,0 +1,17 @@
+detector,beta,selected_subset,same_as_at_0.3,f_conf_of_0.3_subset,f_emp_of_0.3_subset,h_of_0.3_subset
+Isolation Forest,0.1,"{EC, IST, LLC, UWC}",True,0.659,0.736,0.695
+Isolation Forest,0.3,"{EC, IST, LLC, UWC}",True,0.581,0.648,0.613
+Isolation Forest,0.5,"{EC, IST, LLC, UWC}",True,0.488,0.542,0.514
+Isolation Forest,1.0,"{EC, IST, LLC, UWC}",True,0.346,0.383,0.364
+DBSCAN,0.1,"{AWSD, LLC, WRC}",False,0.672,0.698,0.685
+DBSCAN,0.3,"{AWSD, EC, IST, LLC, UWC, WRC}",True,0.584,0.62,0.601
+DBSCAN,0.5,"{AWSD, EC, IST, LLC, RSHT, UWC, WRC}",False,0.481,0.525,0.502
+DBSCAN,1.0,"{AWSD, EC, IST, LLC, RSHT, UWC, WRC}",False,0.332,0.378,0.353
+SOM,0.1,"{AWSD, EC, WRC}",True,0.723,0.742,0.733
+SOM,0.3,"{AWSD, EC, WRC}",True,0.546,0.556,0.551
+SOM,0.5,"{AWSD, EC, WRC}",True,0.391,0.395,0.393
+SOM,1.0,"{AWSD, EC, WRC}",True,0.227,0.228,0.227
+Autoencoder,0.1,"{EC, LLC, WRC}",True,0.697,0.689,0.693
+Autoencoder,0.3,"{EC, LLC, WRC}",True,0.526,0.516,0.521
+Autoencoder,0.5,"{EC, LLC, WRC}",True,0.377,0.367,0.372
+Autoencoder,1.0,"{EC, LLC, WRC}",True,0.219,0.211,0.215

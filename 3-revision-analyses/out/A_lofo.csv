@@ -1,0 +1,9 @@
+detector,selected_on,evaluated_on,tied_subsets,subsets,f_heldout,f_min,f_max,p_heldout,r_heldout,f_in_sample,f_data_only
+Isolation Forest,conference,employee,1,"{EC, IST, LLC, UWC}",0.648,0.648,0.648,0.75,0.257,0.648,0.528
+Isolation Forest,employee,conference,6,"{AWSD, EC, IST, WRC}; {EC, IST, RSHT, UWC}; {EC, IST, RSHT, WRC}; {EC, IST, UWC, WRC}; {IST, LLC, RSHT, UWC}; {IST, LLC, UWC, WRC}",0.555,0.546,0.557,0.642,0.223,0.581,0.569
+DBSCAN,conference,employee,2,"{AWSD, EC, LLC, RSHT, UWC, WRC}; {EC, LLC, RSHT, UWC, WRC}",0.512,0.465,0.559,0.688,0.15,0.62,0.0
+DBSCAN,employee,conference,1,"{AWSD, EC, IST, LLC, UWC, WRC}",0.584,0.584,0.584,0.687,0.219,0.584,0.149
+SOM,conference,employee,2,"{AWSD, RSHT, WRC}; {LLC, RSHT, WRC}",0.496,0.496,0.496,0.694,0.119,0.556,0.417
+SOM,employee,conference,2,"{EC, IST, LLC}; {EC, IST, LLC, WRC}",0.468,0.448,0.487,0.649,0.114,0.546,0.468
+Autoencoder,conference,employee,2,"{AWSD, EC, LLC, RSHT, WRC}; {EC, IST, LLC}",0.467,0.437,0.496,0.652,0.112,0.516,0.397
+Autoencoder,employee,conference,1,"{IST, LLC, UWC, WRC}",0.429,0.429,0.429,0.595,0.105,0.526,0.409

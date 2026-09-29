@@ -1,0 +1,17 @@
+model,form,items,correct,precision,categories_covered,categories,recall
+DeepSeek-R1,conference,4,4,1.0,4,5,0.8
+DeepSeek-R1,employee,5,4,0.8,4,5,0.8
+DeepSeek-V3,conference,4,3,0.75,3,5,0.6
+DeepSeek-V3,employee,5,4,0.8,4,5,0.8
+Gemini-2.5-Flash,conference,4,3,0.75,3,5,0.6
+Gemini-2.5-Flash,employee,4,3,0.75,3,5,0.6
+Gemini-2.5-Pro,conference,3,2,0.67,2,5,0.4
+Gemini-2.5-Pro,employee,5,4,0.8,4,5,0.8
+GPT-4.5,conference,2,2,1.0,2,5,0.4
+GPT-4.5,employee,6,5,0.83,5,5,1.0
+GPT-4o,conference,5,3,0.6,3,5,0.6
+GPT-4o,employee,6,4,0.67,4,5,0.8
+Llama-4-Maverick,conference,4,3,0.75,3,5,0.6
+Llama-4-Maverick,employee,5,4,0.8,4,5,0.8
+Qwen3-235B-Instruct,conference,5,3,0.6,3,5,0.6
+Qwen3-235B-Instruct,employee,6,4,0.67,4,5,0.8

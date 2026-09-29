@@ -6,7 +6,6 @@ import matplotlib as mpl
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
-FIGS = HERE / ".." / ".." / ".." / "figures"
 XLSX = HERE / ".." / "2-insight-generation-package" / "user-study-dev-results.xlsx"
 
 mpl.rcParams.update({
@@ -55,8 +54,7 @@ def rq4_figure(pooled):
     axes[-1].set_xticklabels(LABELS, rotation=25, ha="right")
     fig.align_ylabels(axes)
     fig.tight_layout(h_pad=1.0)
-    for d in (FIGS, HERE):
-        fig.savefig(d / "fig-rq4-likert-boxplots.pdf", bbox_inches="tight")
+    fig.savefig(HERE / "fig-rq4-likert-boxplots.pdf", bbox_inches="tight")
     plt.close(fig)
 
 # ---------- RQ1: detection results grouped bars ----------
@@ -85,8 +83,7 @@ def rq1_figure():
     fig.legend(handles, labels, frameon=False, ncol=3, fontsize=8,
                loc="lower center", bbox_to_anchor=(0.5, 0.97))
     fig.tight_layout()
-    for d in (FIGS, HERE):
-        fig.savefig(d / "fig-rq1-detection-bars.pdf", bbox_inches="tight")
+    fig.savefig(HERE / "fig-rq1-detection-bars.pdf", bbox_inches="tight")
     plt.close(fig)
 
 if __name__ == "__main__":

@@ -30,14 +30,15 @@ pip install pandas numpy matplotlib openpyxl
   - `instructions/`: assessment PDFs
   - `llm-mapping.txt`, `user-study-dev-results.xlsx` (developer ratings and statistical tests)
   - Completeness/Clarity/Difficulty rating PDFs: per-criterion visualizations of the developer ratings
+- `3-revision-analyses/`: scripts and result files of the analyses added in the revision (see its README)
 - `figure-generation/`
-  - `make_paper_figures.py`: regenerates the paper figures (RQ1 detection bars, RQ4 Likert box plots) from the raw data in this package
+  - `make_paper_figures.py`: regenerates the paper figures (RQ1 detection bars from the values of Table 5, RQ4 Likert box plots from the developer ratings in this package)
   - `fig-rq1-detection-bars.pdf`, `fig-rq4-likert-boxplots.pdf`: the generated figures
 
 ### Run the reference user study apps
 1) Open a terminal and change directory so assets resolve correctly:
 ```bash
-cd material/rep/0-workarounds-reference-user-study-dataset/code
+cd 0-workarounds-reference-user-study-dataset/code
 ```
 2) Launch an app:
 ```bash
@@ -47,13 +48,13 @@ python ta3.py    # TA - Controlled
 python hr.py     # HR
 python reg.py    # REG
 ```
-3) Follow the corresponding PDF in `material/rep/0-workarounds-reference-user-study-dataset/instructions`.
+3) Follow the corresponding PDF in `0-workarounds-reference-user-study-dataset/instructions`.
 4) Logs and saved data will appear under `m_*/logs/<user_name>/` created at runtime.
 
 Note: The datasets intentionally contain fields that do not map 1:1 to the forms (e.g., TA "Bonus", multi-valued topics in REG, multiple phone numbers in HR) to elicit user workarounds.
 
 ### LLM prompts and outputs (workaround detection)
-- Prompts are in `material/rep/1-workaround-detection-package/prompts/`.
-- Model outputs are provided under `material/rep/1-workaround-detection-package/LLM-results/<Model>/` (separate files for employee and conference tasks).
-- Calibration sheets are in `material/rep/1-workaround-detection-package/calibrations/`.
+- Prompts are in `1-workaround-detection-package/prompts/`.
+- Model outputs are provided under `1-workaround-detection-package/LLM-results/<Model>/` (separate files for employee and conference tasks).
+- Calibration sheets are in `1-workaround-detection-package/calibrations/`.
 - Re-running can yield different outputs; the provided files enable verification.
